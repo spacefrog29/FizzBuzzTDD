@@ -29,6 +29,7 @@ public class FizzBuzzTests
     [InlineData(5)]
     [InlineData(10)]
     [InlineData(20)]
+    [InlineData(35)]
     public void GivenANumberDivisibleBy5ThenReturnBuzz(int number)
     {
         var result = FizzBuzzGame.Play(number);
